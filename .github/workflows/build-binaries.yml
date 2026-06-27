@@ -34,7 +34,7 @@ jobs:
         run: |
           cp r3g.config openwrt/.config
           cd openwrt
-          make defconfig
+          make oldconfig
       
       - name: Download sources
         run: |
